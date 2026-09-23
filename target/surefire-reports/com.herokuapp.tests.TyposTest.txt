@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.herokuapp.tests.TyposTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 61.02 s <<< FAILURE! -- in com.herokuapp.tests.TyposTest
+com.herokuapp.tests.TyposTest.paragraph_isNotEmpty -- Time elapsed: 3.508 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Текст должен быть про 'paragraph', независимо от случайной опечатки ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.herokuapp.tests.TyposTest.paragraph_isNotEmpty(TyposTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.herokuapp.tests.TyposTest.paragraph_hasStableLength -- Time elapsed: 57.51 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Текст параграфа должен быть содержательным, не обрезанным ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.herokuapp.tests.TyposTest.paragraph_hasStableLength(TyposTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

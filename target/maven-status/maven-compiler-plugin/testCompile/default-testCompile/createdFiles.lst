@@ -1,0 +1,17 @@
+com\herokuapp\pages\TablesPage.class
+com\herokuapp\tests\AddRemoveElementsTest.class
+com\herokuapp\pages\InputsPage.class
+com\herokuapp\pages\TyposPage.class
+com\herokuapp\tests\HoversTest.class
+com\herokuapp\tests\CheckboxesTest.class
+com\herokuapp\pages\DropdownPage.class
+com\herokuapp\pages\NotificationMessagesPage.class
+com\herokuapp\tests\TablesTest.class
+com\herokuapp\pages\CheckboxesPage.class
+com\herokuapp\tests\TyposTest.class
+com\herokuapp\pages\AddRemoveElementsPage.class
+com\herokuapp\tests\InputsTest.class
+com\herokuapp\pages\HoversPage.class
+com\herokuapp\tests\BaseTest.class
+com\herokuapp\tests\NotificationMessagesTest.class
+com\herokuapp\tests\DropdownTest.class
